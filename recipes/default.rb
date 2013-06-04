@@ -4,7 +4,7 @@ bash "update resources" do
   EOH
 end
 
-%w[git vim emacs ruby].each do |pkg|
+%w[git vim emacs ruby screen].each do |pkg|
   package pkg do
     action :install
   end
